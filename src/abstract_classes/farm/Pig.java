@@ -1,17 +1,15 @@
 package abstract_classes.farm;
 
-public class Pig extends Animal{
-
-	@Override
-	void makeNoise() {
-		// TODO Auto-generated method stub
-		
+public class Pig extends Animal {
+	public Pig() {
+		// TODO Auto-generated constructor stub
+		legs = 4;
 	}
 
 	@Override
-	int countLegs() {
+	String makeNoise() {
+		return "oink";
 		// TODO Auto-generated method stub
-		return 0;
-	}
 
+	}
 }

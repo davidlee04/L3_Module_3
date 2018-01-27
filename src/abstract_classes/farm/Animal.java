@@ -1,8 +1,12 @@
 package abstract_classes.farm;
 
 public abstract class Animal {
-	
-	abstract void makeNoise();
-	abstract int countLegs();
+	int legs;
+
+	abstract String makeNoise();
+
+	int countLegs() {
+		return legs;
+	}
 
 }
